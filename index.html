@@ -5,12 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&family=DM+Sans:opsz,wght@9..40,200;9..40,400;9..40,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&family=DM+Sans:opsz,wght@9..40,200;9..40,400;9..40,600&family=Inter&display=swap" rel="stylesheet">
   <title>My Games</title>
   <link rel="stylesheet" href="./styles/main.css">
 </head>
-<body>
-  <p>asdihu</p>
+<body class="bg-light text-slate dark:bg-dark">
+  <header class="w-full top-0 bg-light p-5 shadow-lg">
+    <nav class="flex flex-row justify-between">
+      <img src="./assets/" alt="my-logo">
+      <input type="text" claname="search" id="game-search">
+    </nav>
+  </header>
+  <main class="mx-10 mt-5">
+    <section class="" id="game-section">
+      <div class="p-5 border-2 rounded-lg ">
+        <h1 class="inter font-bold text-2xl">First Game</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ab doloremque, similique dignissimos qui dicta recusandae soluta odit impedit.</p>
+        <button type="button" class="py-2 px-5 my-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Play Now</button>
+      </div>
+    </section>
+  </main>
   <script src="./src/main.js"></script>
 </body>
 </html>
