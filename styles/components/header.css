@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  gap: 1em;
+}
+
+.nav-logo .brand {
+  width: 3rem;
+  height: 2rem;
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.nav-filter {
+  display: none;
+}

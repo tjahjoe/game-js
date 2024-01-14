@@ -1,0 +1,16 @@
+.mobile-filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between  ;
+  gap: 2rem;
+  padding: 10px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.mobile-filter > span {
+  border: 2px solid black;
+  padding: 0.2rem 0.5rem;
+  border-radius: 15px;
+} 
