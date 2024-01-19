@@ -1,3 +1,7 @@
+.block{
+  display: block;
+}
+
 .mobile-filter {
   display: flex;
   flex-direction: row;
@@ -10,7 +14,9 @@
 }
 
 .mobile-filter > span {
-  border: 2px solid black;
+  border: 2px solid #dfff1e;
   padding: 0.2rem 0.5rem;
   border-radius: 15px;
-} 
+  color: #DFFF1E;
+}
+
