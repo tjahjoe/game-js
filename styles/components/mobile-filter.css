@@ -1,11 +1,7 @@
-.block{
-  display: block;
-}
-
 .mobile-filter {
   display: flex;
   flex-direction: row;
-  justify-content: space-between  ;
+  justify-content: space-between;
   gap: 2rem;
   padding: 10px;
   overflow-x: auto;
@@ -14,9 +10,13 @@
 }
 
 .mobile-filter > span {
-  border: 2px solid #dfff1e;
-  padding: 0.2rem 0.5rem;
+  border: 2px solid var(--clr-primary);
+  padding: 0.3rem 1rem;
   border-radius: 15px;
-  color: #DFFF1E;
 }
 
+@media (min-width: 769px) {
+  .mobile-filter {
+    display: none;
+  }
+}
