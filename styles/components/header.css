@@ -27,7 +27,6 @@
   color: var(--acsent);
   border-radius: 10px;
   font-family: var(--ff-tittle);
-  font-weight: 700px;
 }
 
 .nav-logo .brand ion-icon {
@@ -44,11 +43,11 @@
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
-  width: min(500px, 70%); 
+  width: min(70%, 60%); 
 }
 
 .nav-search .search{
-  max-width: 400px;
+  max-width: 700px;
   width: 100%;
 }
 
@@ -57,17 +56,24 @@
   padding: 1rem 2rem;
   border-radius: 10px;
   border: none;
+  font-size: 1.3rem;
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+  font-weight: 600;
+  outline: none;
+}
+
+input[type="search"]::placeholder{
+  color: var(--clr-white);
 }
 
 .nav-filter {
-  margin-top: 10px;
   font-size: 2.5rem
 }
 
 .nav-person {
   font-size: 2.5rem;
 }
-
 
 
 @media (max-width: 803px) {
@@ -78,3 +84,4 @@
     display: none;
   }
 }
+

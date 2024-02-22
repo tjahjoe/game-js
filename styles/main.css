@@ -17,6 +17,7 @@
   --clr-acsent: #0028B8;
   --clr-text: #11052D;
   --clr-background: #E8E3F3;
+  --clr-white: #E8E3F3;
 }
 
 @media (prefers-color-scheme: dark) {
