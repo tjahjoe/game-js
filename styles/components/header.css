@@ -35,6 +35,7 @@
 
 .nav-logo .brand .brand-tittle {
   font-size: 2rem;
+  user-select: none;
 }
 
 .nav-search {

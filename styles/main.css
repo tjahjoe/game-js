@@ -12,23 +12,26 @@
   --fw-bold: 700;
 
   /* clr color */
-  --clr-primary: #9BAFF4;
+  /* --clr-primary: #9BAFF4;
   --clr-secondary: #22228C;
   --clr-acsent: #0028B8;
   --clr-text: #11052D;
   --clr-background: #E8E3F3;
-  --clr-white: #E8E3F3;
-}
+  --clr-white: #E8E3F3; */
 
-@media (prefers-color-scheme: dark) {
-  :root {
   --clr-primary: #22228C;
   --clr-secondary: #9BAFF4;
   --clr-acsent: #476FFF;
   --clr-text: #E5E0F0;
   --clr-background: #11052D;
-  }
+  --clr-white: #E8E3F3;
 }
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+  
+  }
+} */
 
 *, *::before *::after {
   margin: 0;

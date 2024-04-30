@@ -27,19 +27,45 @@
   padding: 1rem;
 }
 
-img {
+.card-image img {
   height: auto;
   max-width: 100%;
   vertical-align: middle;
 }
 
+h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  margin-block: 0.5rem;
+}
+
+.genre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-block: 1rem;
+  overflow-y: hidden;
+  font-size: 0.9rem;
+}
+
+.genre > span {
+  border: 2px solid var(--clr-white);
+  padding: 0.1rem 0.5rem;
+  border-radius: 15px;
+}
+
 /* Medium devices (landscape tablets and up) */
-@media only screen and (min-width: 1em) {
+@media only screen and (max-width: 37.4rem) {
   .games {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     margin-top: 2rem;
+  }
+  
+  .card-item {
+    width: 70VW;
   }
 
   .card-game {
@@ -48,8 +74,21 @@ img {
     border-radius: 15px;
     transition: 0.3s;
     padding: 1rem;
+    width: 100%;
+  }
+
+  .card-image {
+    align-items: center;
+    margin: auto;
   }
 }
+
+@media only screen and (min-width : 37.5rem) {
+  .card-item {
+    width: 100VW;
+  }
+}
+
 
 /* Extra small devices (phones and down) */
 @media only screen and (min-width: 37.5rem) {
