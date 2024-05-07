@@ -25,6 +25,7 @@
   --clr-text: #E5E0F0;
   --clr-background: #11052D;
   --clr-white: #E8E3F3;
+  --clr-gray: #53565A;
 }
 
 /* @media (prefers-color-scheme: dark) {

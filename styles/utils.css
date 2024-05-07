@@ -25,6 +25,17 @@
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 999;
 }
+
+.content {
+  flex-direction: column;
+}
+
+.canvas-game {
+  display: block;
+  background-color: var(--clr-gray);
+  border-radius: 10px;
+}
+
 /* sm */
 /* @media (min-width: 640px) {
   .container {
