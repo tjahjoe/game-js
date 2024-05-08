@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Games Js</title>
+</head>
+
+<body>
+  <header class="header container">
+    <nav class="navbar">
+      <ul class="nav-menu">
+        <li class="nav-logo">
+          <div class="brand">
+            <ion-icon name="game-controller-outline"></ion-icon>
+            <span class="brand-tittle">Game-Js</span>
+          </div>
+        </li>
+        <li class="nav-search">
+          <div class="search">
+            <input type="search" placeholder="Search Game..." name="game-name" id="game-name" />
+          </div>
+          <div class="nav-filter" id="nav-filter">
+            <ion-icon name="filter-circle-outline"></ion-icon>
+          </div>
+        </li>
+        <li class="nav-person">
+          <ion-icon name="person-circle-outline"></ion-icon>
+        </li>
+      </ul>
+    </nav>
+    <div class="mobile-filter">
+      <span>Genre</span>
+      <span>Genre</span>
+      <span>Genre</span>
+      <span>Genre</span>
+      <span>Genre</span>
+      <span>Genre</span>
+    </div>
+  </header>
+  <main>
+    <div class="container content" id="main">
+     <canvas id="hitman"></canvas>
+     <div class="instruction">
+      <h1 class="instruction-tittle">How to Play ?</h1>
+      <ol>
+        <li>[w] Move up</li>
+        <li>[s] Move Down</li>
+        <li>[d] Move Right</li>
+        <li>[a] Move Left</li>
+        <li>[k] Shoot</li>
+        <li>Collect as much point as you can</li> 
+      </ol>
+     </div>
+    </div>
+
+  </main>
+  <footer></footer>
+  <script type="module" src="../../src/main.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

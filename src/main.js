@@ -10,3 +10,6 @@ import '../styles/components/game.css';
 
 // modal
 // import './components/modal/index.js';  z
+
+//game hitman
+import '../pages/hitman/hitman.js'
